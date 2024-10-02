@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+}
+
+body{
+    background-color: 	#f4d04e;
+ 
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.container{
+    background-color: #ffffff;
+    width: 350px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    border-radius: 20px;
+}
