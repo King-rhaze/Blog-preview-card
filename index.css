@@ -5,9 +5,20 @@
     font-family: "Figtree", sans-serif;
 }
 
+:root {
+    --clr-Yellow:#f4d04e;
+    --clr-White:#ffffff;
+    --clr-Grey: #808080;
+    --clr-Black:#121212;
+
+    --ff-main: "Figtree", sans-serif;
+    --fs-main: 16px;
+    --fs-600: 600;
+    --fw-800: 800;
+}
+
 body{
     background-color: 	#f4d04e;
- 
 }
 
 .attribution { font-size: 11px; text-align: center; }
@@ -21,4 +32,13 @@ body{
     margin-right: auto;
     margin-top: 10rem;
     border-radius: 20px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1 {
+    line-height: 1.1;
 }
