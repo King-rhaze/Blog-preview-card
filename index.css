@@ -18,7 +18,11 @@
 }
 
 body{
-    background-color: 	#f4d04e;
+    font-family: var(--ff-main);
+    font-size: var(--fs-main);
+    font-weight: var(--fs-600);
+    color: var(--clr-Grey);
+    background-color: var(--clr-Yellow);
 }
 
 .attribution { font-size: 11px; text-align: center; }
@@ -33,6 +37,42 @@ body{
     margin-top: 10rem;
     border-radius: 20px;
     padding: 1rem;
+}
+
+.blog-type {
+    color: var(--clr-Black);
+    font-weight: var(--fw-800);
+    display: inline-block;
+    background-color: var(--clr-Yellow);
+    padding: .5rem .8rem;
+    border-radius: .2rem;
+}
+
+.blog-date {
+    font-size: 14px;
+    color: var(--clr-Black);
+}
+
+.blog-title {
+    color: var(--clr-Black);
+    font-weight: var(--fw-800);
+    font-size: 1.4rem;
+}
+
+.author {
+    color: var(--clr-Black);
+    font-weight: var(--fw-800);
+    font-size: 14px;
+}
+
+.user-data {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user-image{
+    width: 2.7rem;
 }
 
 img {
