@@ -4,13 +4,11 @@
     box-sizing: border-box;
     font-family: "Figtree", sans-serif;
 }
-
 :root {
     --clr-Yellow:#f4d04e;
     --clr-White:#ffffff;
     --clr-Grey: #808080;
     --clr-Black:#121212;
-
     --ff-main: "Figtree", sans-serif;
     --fs-main: 16px;
     --fs-600: 600;
@@ -24,28 +22,31 @@ body{
     color: var(--clr-Grey);
     background-color: var(--clr-Yellow);
 }
+img {
+    display: block;
+    max-width: 100%;
+}
+h1 {
+    line-height: 1.1;
+}
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
 
-
-
-.container{
+.container {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+.blog-container{
     background: var(--clr-White);
-    width: 23em;
+    max-width: 23em;
     padding: 1.5rem;
     border-radius: 1rem;
     box-shadow: 5px 5px 0 var(--clr-Black);
     transition: box-shadow 0.2s ease;
-    display: grid;
-    place-items: center;
-
 }
-
-.container:hover{
+.blog-container:hover{
     box-shadow: 8px 8px 0 var(--clr-Black);
 }
-
 .blog-type {
     color: var(--clr-Black);
     font-weight: var(--fw-800);
@@ -55,13 +56,11 @@ body{
     border-radius: .2rem;
     margin-top: 1rem;
 }
-
 .blog-date {
     font-size: 14px;
     color: var(--clr-Black);
     margin-top: 1rem;
 }
-
 .blog-title {
     color: var(--clr-Black);
     font-weight: var(--fw-800);
@@ -69,42 +68,33 @@ body{
     margin-top: 1rem;
     transition: color 0.2s ease;
 }
-
 .blog-title:hover{
     color: var(--clr-Yellow);
     cursor: pointer;
 }
-
 .blog-content {
     margin-top: 1rem;
 }
-
 .blog-image {
     border-radius: .8rem;
 }
+
 
 .author {
     color: var(--clr-Black);
     font-weight: var(--fw-800);
     font-size: 14px;
 }
-
 .user-data {
     display: flex;
     align-items: center;
     gap: 1rem;
     margin-top: 1rem;
 }
-
 .user-image{
     width: 2.7rem;
 }
 
-img {
-    display: block;
-    max-width: 100%;
-}
 
-h1 {
-    line-height: 1.1;
-}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
